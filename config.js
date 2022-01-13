@@ -17,7 +17,7 @@ mess = {
     bot: 'Só o bot',
     wait: '*_Espere..._*',
 }
-thumb = fs.readFileSync('./lib/haves.jpg')
+thumb = fs.readFileSync('./lib/havest.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
